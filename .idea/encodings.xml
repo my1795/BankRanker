@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/appcore/dataadapter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/appcore/datacollector/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/appcore/dataprovider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/appcore/exchangeratesMBT/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/appcore/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/appcore/userapi/src/main/java" charset="UTF-8" />
+  </component>
+</project>
