@@ -1,0 +1,12 @@
+userapi\UserApiConfig.class
+userapi\base\model\ServiceUserDetails.class
+userapi\base\model\UserImpl.class
+userapi\base\config\WebSecurityConfig.class
+userapi\base\service\UserServiceImpl.class
+userapi\base\config\UserDetailsServiceImpl.class
+userapi\base\model\User.class
+userapi\UserApi.class
+userapi\base\model\UserRole.class
+userapi\base\repository\UserRepository.class
+userapi\base\restcontroller\UserController.class
+userapi\base\service\UserService.class
