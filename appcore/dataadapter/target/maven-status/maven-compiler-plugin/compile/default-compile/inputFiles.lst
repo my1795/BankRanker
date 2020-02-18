@@ -1,8 +1,8 @@
-D:\Users\musyil\IdeaProjects\cs401\appcore\dataadapter\src\main\java\bankservices\DNZService.java
-D:\Users\musyil\IdeaProjects\cs401\appcore\dataadapter\src\main\java\bankservices\ISBService.java
-D:\Users\musyil\IdeaProjects\cs401\appcore\dataadapter\src\main\java\bankservices\YKBService.java
-D:\Users\musyil\IdeaProjects\cs401\appcore\dataadapter\src\main\java\utils\Bank.java
-D:\Users\musyil\IdeaProjects\cs401\appcore\dataadapter\src\main\java\adapter\CurrencyDataAdapter.java
-D:\Users\musyil\IdeaProjects\cs401\appcore\dataadapter\src\main\java\adaptedservices\AdaptedISBService.java
-D:\Users\musyil\IdeaProjects\cs401\appcore\dataadapter\src\main\java\adaptedservices\AdaptedYKBService.java
-D:\Users\musyil\IdeaProjects\cs401\appcore\dataadapter\src\main\java\adaptedservices\AdaptedDNZService.java
+D:\Users\musyil\IdeaProjects\BankRanker\appcore\dataadapter\src\main\java\adaptedservices\AdaptedDNZService.java
+D:\Users\musyil\IdeaProjects\BankRanker\appcore\dataadapter\src\main\java\bankservices\ISBService.java
+D:\Users\musyil\IdeaProjects\BankRanker\appcore\dataadapter\src\main\java\bankservices\YKBService.java
+D:\Users\musyil\IdeaProjects\BankRanker\appcore\dataadapter\src\main\java\utils\Bank.java
+D:\Users\musyil\IdeaProjects\BankRanker\appcore\dataadapter\src\main\java\adaptedservices\AdaptedISBService.java
+D:\Users\musyil\IdeaProjects\BankRanker\appcore\dataadapter\src\main\java\adaptedservices\AdaptedYKBService.java
+D:\Users\musyil\IdeaProjects\BankRanker\appcore\dataadapter\src\main\java\bankservices\DNZService.java
+D:\Users\musyil\IdeaProjects\BankRanker\appcore\dataadapter\src\main\java\adapter\CurrencyDataAdapter.java
