@@ -127,7 +127,7 @@ According to problem statement part, the project is decided to design on model-b
 There must be collected rank data before processing it to rank banks. Datacollector component is designed to execute a cronjob to collect bank&#39;s currency rates every minute. Dataadapter component converts  different banks data in the same format to persist it elasticsearch repository.
 
 
-
+![Alt text](/screenshots/fig2.png?raw=true "Fig. 2 Currency data persisted to elasticsearch repo by datacollector")
 
         Fig. 2 Currency data persisted to elasticsearch repo by datacollector
 
@@ -136,10 +136,10 @@ Dataadapter converts bank data in a format that is desired above. Banks services
 
 
 
-
+![Alt text](/screenshots/fig3.png?raw=true "Fig. 3 Sample request body for dataprovider service")
 
                                                 Fig. 3 Sample request body for dataprovider service
-
+![Alt text](/screenshots/fig4.png?raw=true " Fig. 4 Sample request response for dataprovider service")
                                 Fig. 4 Sample request response for dataprovider service
 
 
@@ -149,7 +149,7 @@ Dataprovider component retrieves requests as shown above and makes a request to 
         As a result of the above statements, there must be a UserAPI to register users and make authentication and authorization to benefit from dataprovider  service. Related API urls are shown at Tools &amp; Techniques section. The sample request body for recording a user must be as below:
 
 
-
+![Alt text](/screenshots/fig5.png?raw=true " Fig. 5 Sample user register request as REST request.")
         Fig. 5 Sample user register request as REST request.
 
         The working components is explained until these section. The second solution proposed was bringing a model based test generation solution to test the application. The test model which will be described below later is not a comprehensive test of all components in the system. The model focuses on user interactions with the system while incoming requests are made to Dataprovider service. The service also interacts with elasticsearch repository and datacollector inherently. However, these modules can be tested by unit tests. On the other hand, userapi and dataprovider has many interactions between them. This makes the model based test applicable on these components. ModelJUnit library will be used to generate test cases automatically and execute them. Our approach takes users to center of test cases. Model-based test logic is build as states and transitions. In our case rank requests, their results ,users and response can be in many states. Instead of preparing separate different test cases for each state and for each input, generating random inputs and running state machine for test purposes is quite efficient. There will be less test effort by this way. Also if there is an unexpected result while running state machine it will be reported by throwing an exception. The first step must be defining states and actions for UserAPI and Dataprovider service tests. The states and and actions explained below:
@@ -207,7 +207,7 @@ Dataprovider component retrieves requests as shown above and makes a request to 
 
 **Test Model of ExchangeRates(exchangeRatesMBT):**
 
-
+![Alt text](/screenshots/fig6.png?raw=true "  Fig 6. exchangeRatesMBT Test Model")
                                         Fig 6. exchangeRatesMBT Test Model
 
 **       **
@@ -266,7 +266,7 @@ According to our decisions and model behaviors we have listed advantages and dis
 
         Automated test generation method is explained in Design Approach Section. ModelJUnit library is used to execute this method on exchangeratesMBT module. The library takes a Model the model is explained below. Then it , executes tests as follows on the code:
 
-
+![Alt text](/screenshots/fig7.png?raw=true " Fig 7. exchangeRatesMBT main method")
                         Fig 7. exchangeRatesMBT main method
 
  UserTester class takes a model which is explained before. Then some coverage metrics added to tester. These are discussed in Result and Discussion section. generate() method length is 500. 500 iteration happens in this test model.
@@ -324,7 +324,7 @@ The composite service modules are explained in previous sections. Theses modules
 
 Apart from the core part of the service, test generation method is enhanced via ModelJUnit. The model and test model work logic is explained before. Results of tests will be discussed in this section.
 
-
+![Alt text](/screenshots/fig8.png?raw=true "Fig 8. Test coverage output of ModelJUnit after 500 iterations)
                 Fig 8. Test coverage output of ModelJUnit after 500 iterations
 
 
