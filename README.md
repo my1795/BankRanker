@@ -114,7 +114,7 @@ According to problem statement part, the project is decided to design on model-b
 
 
 **ExchaneRates Model:**
-![Alt text](/screenshots/fıg1.png?raw=true "Fig. 1 Composite Web Service Model(exchangerates)")
+![Alt text](/screenshots/fig1.png?raw=true "Fig. 1 Composite Web Service Model(exchangerates)")
 
                                                 
 
